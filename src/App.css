@@ -44,6 +44,7 @@ body {
   box-sizing: border-box;
   border-bottom: 2px solid transparent;
   margin-bottom: 1em;
+  width: 100%;
 }
 
 .form-name-input:hover {
@@ -115,4 +116,51 @@ button:hover {
 .add-button-container {
   margin: 0.2em auto;
   width: inherit;
+}
+
+label {
+  display: block;
+}
+
+.answer-form-input {
+  display: block;
+  margin: 1em 1em 1em;
+  width: 92%;
+}
+
+.option-div {
+  margin: 1em;
+}
+
+.single-answer {
+  background-color: #dee7e754;
+  padding: 1em;
+  display:block;
+  border-radius: 12px;
+}
+svg {
+  margin: 2em auto;
+  display: block;;
+  overflow: inherit;
+}
+path:hover {
+  fill: #0a4a90;
+  cursor: pointer;
+}
+path:hover + text {
+  fill:black;
+  transform: translate(55%, 0%) scale(1.6);
+}
+@media screen and (max-width: 750px) {
+  svg {
+    zoom: 0.7;
+  }
+  .App {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 380px) {
+  svg {
+    zoom: 0.52;
+  }
 }
