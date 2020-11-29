@@ -1,0 +1,82 @@
+html, body, * {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+  h1 {
+      margin: 0;
+  }
+
+.logo-small {
+    color: rgba(255,255, 255, 0.8) !important;
+    font-weight: 200;
+}
+.logo-big {
+    color: #4dcbdc;
+    text-align: center;
+    padding: .8em;
+    font-size: 1.3em;
+}
+header {
+    background-color: black;
+}
+.white-header {
+    color: white;
+    font-weight: 200;
+}
+.surveys-text {
+    color:  #4dcbdc;
+    font-weight: 600;
+}
+.image {
+    height: 410px;
+    display: block;
+    margin: 0 4em;
+}
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 0;
+}
+footer {
+    background-color: black;
+    color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkki {
+    color: white;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    margin: 0;
+}
+.linkki:hover {
+    border-bottom: 2px solid #4dcbdc;
+}
+.link:active {
+    text-decoration: none;
+}
+.light-blue {
+    color: #4dcbdc;
+}
+.no-margin {
+    margin: 0;
+}
+@media screen and (max-width: 774px) {
+    .main-content {
+        flex-direction: column-reverse;
+    }
+    .left-content {
+        margin-top: 2.1em;
+        text-align: center;
+    }
+    .image {
+        height: 350px;
+        margin: 0;
+    }
+}
