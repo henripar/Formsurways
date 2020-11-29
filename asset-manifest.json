@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Formsurway/static/css/main.2d42741c.chunk.css",
+    "main.js": "/Formsurway/static/js/main.781b8831.chunk.js",
+    "main.js.map": "/Formsurway/static/js/main.781b8831.chunk.js.map",
+    "runtime-main.js": "/Formsurway/static/js/runtime-main.96f05203.js",
+    "runtime-main.js.map": "/Formsurway/static/js/runtime-main.96f05203.js.map",
+    "static/js/2.bad46782.chunk.js": "/Formsurway/static/js/2.bad46782.chunk.js",
+    "static/js/2.bad46782.chunk.js.map": "/Formsurway/static/js/2.bad46782.chunk.js.map",
+    "static/js/3.12e2c976.chunk.js": "/Formsurway/static/js/3.12e2c976.chunk.js",
+    "static/js/3.12e2c976.chunk.js.map": "/Formsurway/static/js/3.12e2c976.chunk.js.map",
+    "index.html": "/Formsurway/index.html",
+    "static/css/main.2d42741c.chunk.css.map": "/Formsurway/static/css/main.2d42741c.chunk.css.map",
+    "static/js/2.bad46782.chunk.js.LICENSE.txt": "/Formsurway/static/js/2.bad46782.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Formsurway/static/media/denim.2bbf2255.png",
+    "static/media/formimage.c91428e7.png": "/Formsurway/static/media/formimage.c91428e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96f05203.js",
+    "static/js/2.bad46782.chunk.js",
+    "static/css/main.2d42741c.chunk.css",
+    "static/js/main.781b8831.chunk.js"
+  ]
+}
