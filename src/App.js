@@ -158,7 +158,7 @@ const Submitted = (props) => {
   const [showCopied2, setShowcopied2] = useState(false);
 
   const share = (url) => {
-    navigator.clipboard.writeText(`https://henripar.github.io/Formsurways/form/${url}`);
+    navigator.clipboard.writeText(`https://henripar.github.io/Formsurway/form/${url}`);
     setShowcopied(true);
     setTimeout((() => {
       setShowcopied(false);
@@ -189,7 +189,7 @@ const Submitted = (props) => {
 
             ) :
 
-            <p>{'https://henripar.github.io/Formsurways/form/' + props.url}</p>
+            <p>{'https://henripar.github.io/Formsurway/form/' + props.url}</p>
 
           }
 
@@ -208,7 +208,7 @@ const Submitted = (props) => {
 
             ) :
 
-            <p>{'https://henripar.github.io/Formsurways/answers/' + props.url}</p>
+            <p>{'https://henripar.github.io/Formsurway/answers/' + props.url}</p>
 
           }
 
