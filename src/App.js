@@ -158,7 +158,7 @@ const Submitted = (props) => {
   const [showCopied2, setShowcopied2] = useState(false);
 
   const share = (url) => {
-    navigator.clipboard.writeText(`https://henripar.github.io/Formsurway/form/${url}`);
+    navigator.clipboard.writeText(`https://henripar.github.io/Formsurways/form/${url}`);
     setShowcopied(true);
     setTimeout((() => {
       setShowcopied(false);
